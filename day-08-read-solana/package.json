@@ -1,0 +1,16 @@
+{
+  "name": "day-08-read-solana",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+ "scripts": {
+    "start" : "node read-balance.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^2.0.0"
+  }
+}

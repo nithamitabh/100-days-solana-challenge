@@ -1,24 +1,4 @@
-/*
-import {
-  generateKeyPairSigner,
-  createSolanaRpc,
-  devnet,
-  address
-} from "@solana/web3.js";
 
-const rpc = createSolanaRpc(devnet("https://api.devnet.solana.com"));
-
-// comment this if you only want to check balance
-// const wallet = await generateKeyPairSigner();
-
-const targetAddress = address("5msEc6iZUVrpodebRCz5w8YPYkbUo1ace9W6ZG2xEeq4");
-
-const { value: balance } = await rpc.getBalance(targetAddress).send();
-
-const balanceInSol = Number(balance) / 1_000_000_000;
-
-console.log(`Balance: ${balanceInSol} SOL`);
-*/
 import { generateKeyPairSigner, createSolanaRpc, devnet, } from "@solana/web3.js";
 
 const rpc = createSolanaRpc(devnet("https://api.devnet.solana.com"));
