@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start" : "node create_wallet.mjs"
+    "start": "node create_wallet.mjs"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "@solana-developers/helpers": "^2.3.0",
+    "@solana/kit": "^6.8.0",
     "@solana/web3.js": "^2.0.0",
     "bs58": "^6.0.0"
   }
